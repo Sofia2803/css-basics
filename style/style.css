@@ -1,0 +1,72 @@
+:root {
+    --font-family: "Playfair Display", sans-serif;
+    --second-family: "Ubuntu", sans-serif;
+    --brand-color:#b4ad9e;
+    --second-color:#626262;
+  }
+
+.header-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #7d7d7d;}
+
+  .header-link:hover {
+    color: #03a9f4;
+ }
+
+
+
+ .active {color: #03a9f4;
+
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.gellery-sudtiatle {
+  font-family: var(--second-family);
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--brand-color);
+
+}
+
+
+.gallery-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--second-color);
+  
+}
+
+
+.gellery-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color:var(--second-color);
+
+}
+
+button {
+width: 165px;
+  height: 60px; 
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+cursor: pointer;
+color: var(--second-color);
+background-color:white;
+}
+
+
+
